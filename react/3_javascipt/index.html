@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>oh hi</h1>
+  </body>
+  <script>
+    console.log("Helllllllllllo");
+    function myFunction() {
+      console.log("from Function");
+    }
+    myFunction();
+    myFunction();
+
+    function myTest(name) {
+      console.log("welcome", name);
+      console.log("welcome " + name);
+      console.log(`welcome ${name}`);
+    }
+    fullName("Nico", "Nova"); // u can call before function write
+    myTest("Nico");
+    function fullName(firstName, lastName) {
+      console.error("FullName : ");
+      console.log(firstName + " " + lastName);
+    }
+
+    // console.log(myDouble(5)) // u can't call before functino write
+    const myDouble = (n) => n * n;
+    console.log(myDouble(5));
+
+    var arr = [1, 12, 6, 8];
+    arr = arr.map((e) => (e % 2 == 0 ? e * 2 : e));
+    console.log(arr);
+    const myfun = (e) => (e % 2 == 0 ? e * 2 : e * 3);
+
+    arr = arr.map(myfun);
+    console.log(arr);
+
+    const arrEven = (e) => e % 2 == 0;
+    const arrOdd = (e) => e % 2 != 0;
+
+    console.log(arr.filter(arrEven));
+    console.log(arr.filter(arrOdd));
+
+  </script>
+</html>

@@ -1,0 +1,44 @@
+body
+{
+    height: 145
+    vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mytxt
+{
+    padding: 16px;
+    font-size: 20px;
+}
+
+button
+{
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 16px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerBtn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox
+{
+    padding: 16px;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 16px;
+    font-size: 20px;
+}

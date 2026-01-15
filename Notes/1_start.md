@@ -78,3 +78,4 @@ A:\Sem 6\mern\react\class>
 ## DOM and Virual DOM : 
 we know that already so not going to repeat (u can read mine Mern Repo basic..)
 
+npm init

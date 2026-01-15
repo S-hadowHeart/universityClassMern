@@ -1,0 +1,29 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button
+{
+    padding: 16px;
+    font-size: 20px;
+    background-color: darkgrey;
+    border-radius: 16px;
+}
+
+.inputBox
+{
+    height: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding-left: 10px;
+}
+
+.txt 
+{
+    font-size: 30px;
+}
